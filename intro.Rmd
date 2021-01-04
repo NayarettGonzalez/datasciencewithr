@@ -1,6 +1,171 @@
 ---
-title: "intro"
+title: "Introducción"
 author: "Nayarett González"
 date: "1/4/2021"
 output: html_document
 ---
+
+
+## DATOS
+- Cargar los datos en R
+- Llevar los datos a la estructura más útil
+  - Limpieza
+- Transformar los datos 
+- Visualizar los datos
+- Modelar los datos
+
+Cómo usar:
+grammar of graphics
+literate programming
+reproducible research para ahorrar tiempo
+
+Cómo administrar
+recursos cognitivos para facilitar descubrimientos cuando 
+limpias, (wrangling)
+visualizas y
+exploras datos
+
+
+El data science es una disciplina que nos permite transformar los datos crudos en comprensión,
+insights y
+conocimiento
+
+
+# Secuencia de trabajo
+
+* Importar 
+  - Se adquiere la data que se encuentra almacenada en
+    archivos
+    bases de datos
+    API's
+  - Se cargan en un data frame en R
+
+* Ordenar
+  - Los datos se almacenan en una consistente forma. Esto es, hece match la semántica del data set con la forma como este es almacenado. 
+  - Cada columna es una variable
+  - Cada fila es una observación
+  
+  - Es importante porque, una estructura consistente, permite que nos focalicemos en preguntas acerca de la data y no tener que estar lidiando con conseguir data en la forma correcta para diferentes funciones
+  
+
+* Transformar
+  - Reducir en observaciones de interés
+  - Crear nuevas variables que son funciones de las variables existentes
+  - Calcular un set de medidas estadísticas:
+     - conteo
+     - promedio
+  
+  
+  Ordenar y transformar los datos recibe el nombre de "Data Wrangling" -> Conseguir datos en una forma que sea natural para trabajar con ellos a menudo se siente como una batalla.
+  
+  
+  Una vez que se ha terminado con la etapa anterior, existen dos motores de generación de conocimiento: 
+  - visualización
+  - modelamiento
+  
+  Estos tienen fortalezas y debilidades complementarias y en un análisis real iteraremos entre ellas varias veces.
+  
+  
+* Visualizar
+  Una buena visualización:
+  - Mostrará cosas inesperadas 
+  - Generará nuevas preguntas acerca de la data
+  - Podría mostrarte que: 
+    - estás realizando una pregunta equivocada o
+    - necesitas recolectar data diferente
+Las visualizaciones pueden sorprendernos, pero cuidado reuieren de la interpretación de un ser humano
+
+* Modelar
+  Es una herramienta complementaria a la visualización.
+  Una vez que se han hecho preguntas lo suficientemente precisas, se puede utilizar un modelo para responderlas
+  
+  Modelos:
+    Son fundamentalmente una herramienta matemática o computacional. 
+    Cada modelo hace supuestos.Un modelo no puede custionar sus supuestos.
+
+* Comunicar
+  Es una parte crítica de cualquier proyecto de análisis de datos.
+  
+  No importa cuán bien tus modelos y visualizaciones te hayan dejado comprender los datos a menos que puedas también comunicar los resultados a otros.
+  
+  Alrededor de todos etapas o herramientas está la Programación. Está será usada en cada parte del proyecto.
+  
+  No se necesita ser un experto programador para ser un data scientist; pero ser un mejor programador te ayuda a automatizar tareas comunes y resolver nuevos problemas con mayor facilidad.
+  
+  Esta secuencia se realizará en cada proyecto de data science, pero para la mayoría de los proyectos no serán suficientes.(80/20)
+  
+  
+  We'll focus on
+  - small
+  - in-memory datasets
+  
+  * larger data ( 10 - 100 Gb)
+  
+  Big Data
+  Mi problema de big data podría ser a problema de poca data
+  Mi problema de big data podría ser un gran número de problemas de pequeña data
+  La data podría ser grande, pero la data para responder una pregunta podría ser poca
+  Yo podría ser capaz de encontrar un subset, submuestra o resumir lo que se ajusta en memoria y aún así te permite responder la pregunta que te estás haciendo.
+  
+  El desafío es encontrar la correcta pequeña data, la cual a menudo requiere un montón de iteración.
+  
+  
+  Por ejemplo, se podría desear ajustar un modelo a cada persona en mi dataset. Es trivial si se trata de 10 o 100 personas, pero tienes un millón
+  Afortunadamente, cada problema es independiente de los otros, so tu solamente necesitarás un sistema como:
+  Hadoop 
+  Spark
+  Los que permiten enviar diferentes datasets a diferentes computadores para su procesamiento.
+  
+  Una vez que hayas averigüado cómo responder la pregunta para un único subset con lo básico, necesitarás aprender otras herramientas como 
+  sparklyr
+  rhipe
+  addr
+  para resolver para todo el conjunto de datos.
+  
+  
+  # Lenguajes de programación útiles en data science
+  
+  Python
+  Julia
+  
+  R no es solo un lenguaje de programación; sino también un ambiente para hacer data science.
+  
+  
+  # Non-rectangular data
+  - Images
+  - Sounds
+  - Trees
+  - Text
+  
+  Data frame are extremely common in science and industry
+  
+  Los data frame son extremadamente comunes en la ciencia y en la industria.
+  
+  
+  # Confirmación de Hipótesis
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
