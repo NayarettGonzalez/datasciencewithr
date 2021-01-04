@@ -1,0 +1,6 @@
+---
+title: "intro"
+author: "Nayarett González"
+date: "1/4/2021"
+output: html_document
+---
